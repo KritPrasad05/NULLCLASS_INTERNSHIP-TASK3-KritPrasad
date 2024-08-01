@@ -6,8 +6,8 @@
 </head>
 <body>
 
-<h1>Translation App: English to Hindi</h1>
-<p>This project is a simple script that translates English text into Hindi using the MarianMT model from the Hugging Face Transformers library. The script includes a specific rule for translating words that start with a vowel.</p>
+<h1>Translation App: English to French and Hindi</h1>
+<p>This project is a web application that translates English text into French and Hindi simultaneously using the MarianMT model from the Hugging Face Transformers library. The user interface is built with Streamlit, and the app includes a specific rule for translating only 10-letter words.</p>
 
 <h2>Table of Contents</h2>
 <ul>
@@ -22,9 +22,9 @@
 
 <h3>Step 1: Clone the Repository</h3>
 <p>First, clone this repository to your local machine using:</p>
-<pre><code>git clone https://github.com/yourusername/translation-app-hindi.git
+<pre><code>git clone https://github.com/yourusername/translation-app-multi.git
   
-cd translation-app-hindi
+cd translation-app-multi
 </code></pre>
 
 <h3>Step 2: Create a Virtual Environment</h3>
@@ -37,23 +37,26 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 <p>Install the necessary libraries using <code>pip</code>:</p>
 <pre><code>pip install transformers</code></pre>
 <pre><code>pip install torch</code></pre>
+<pre><code>pip install streamlit</code></pre>
 
 <h3>Step 4: Run the Application</h3>
-<p>Start the application by running:</p>
-<pre><code>python TASK3.py
+<p>Start the Streamlit application by running:</p>
+<pre><code>streamlit run TASK4.py
 </code></pre>
 
 <h2 id="usage">Usage</h2>
 <ol>
-    <li>Run the script in your terminal.</li>
-    <li>Enter the English word you want to translate when prompted.</li>
-    <li>The application will display the translated text in Hindi.</li>
-    <li>If the word starts with a vowel, it can only be translated between 9 PM and 10 PM IST. Otherwise, you will be prompted to enter another word.</li>
+    <li>Open your web browser and go to <code>http://localhost:8501</code>.</li>
+    <li>Enter a 10-letter English word in the input box.</li>
+    <li>The application will display the translated text in both French and Hindi.</li>
+    <li>If the word is not 10 letters long, the application will prompt you to enter a valid word.</li>
 </ol>
 
-<h2 id="license">License</h2>
+<h2 id="credits">Credits</h2>
 <p>This project was created as part of a task assigned by NullClass. Special thanks to the NullClass organization for the opportunity to work on this project.</p>
 
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 </body>
 </html>
