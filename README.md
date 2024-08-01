@@ -7,7 +7,7 @@
 <body>
 
 <h1>Translation App: English to French and Hindi</h1>
-<p>This project is a web application that translates English text into French and Hindi simultaneously using the MarianMT model from the Hugging Face Transformers library. The user interface is built with Streamlit, and the app includes a specific rule for translating only 10-letter words.</p>
+<p>This project is a web application that simultaneously translates English text into French and Hindi using the MarianMT model from the Hugging Face Transformers library. The user interface is built with Streamlit, and the app includes a specific rule for translating only 10-letter words.</p>
 
 <h2>Table of Contents</h2>
 <ul>
@@ -22,7 +22,7 @@
 
 <h3>Step 1: Clone the Repository</h3>
 <p>First, clone this repository to your local machine using:</p>
-<pre><code>git clone https://github.com/yourusername/translation-app-multi.git
+<pre><code>git clone https://github.com/KritPrasad05/NULLCLASS_INTERNSHIP-TASK3-KritPrasad.git
   
 cd translation-app-multi
 </code></pre>
