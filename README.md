@@ -51,11 +51,9 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     <li>If the word starts with a vowel, it can only be translated between 9 PM and 10 PM IST. Otherwise, you will be prompted to enter another word.</li>
 </ol>
 
-<h2 id="credits">Credits</h2>
+<h2 id="license">License</h2>
 <p>This project was created as part of a task assigned by NullClass. Special thanks to the NullClass organization for the opportunity to work on this project.</p>
 
-<h2 id="license">License</h2>
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 </body>
 </html>
